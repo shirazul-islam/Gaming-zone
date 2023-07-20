@@ -115,9 +115,7 @@
 }
 
 .banner-content {
-    /* width: 901px; */
-    /* height: 700px; */
-    /* border: 2px solid red; */
+ 
     background-image: url(images/Group\ 14.png);
 }
 
@@ -127,11 +125,9 @@
 }
 
 .banner-section .banner-content {
-    /* background: url(images/bg.png); */
     height: 100%;
     background-repeat: no-repeat;
-    /* text-align: center; */
-    display: flex;
+     display: flex;
     justify-content: center;
 
 
@@ -164,8 +160,7 @@
 
 /* online-games-section */
 .online-games-section {
-    /* text-align: center; */
-    /* padding: 20px; */
+  
     margin-top: 50px;
 
 
@@ -196,10 +191,7 @@
     display: grid;
  grid-template-columns: repeat(4, 1fr);
 }
-/* .games-img .img {
-    height: 442px;
-    width: 462px;
-} */
+
 
 .games-img p {
     padding: 10px 0px;
@@ -448,14 +440,6 @@
 }
 
 
-
-
-
-
-
-
-
-
 /* media screen responsive tablet device */
 
 @media screen and (min-width:576px) and (max-width:768px) {
@@ -485,7 +469,9 @@
 
     .games-img{
         grid-template-columns: repeat(2, 1fr);
-        gap:px;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 10px;
         
     }
 
@@ -497,6 +483,45 @@
 
         flex-direction: column;
     }
+
+
+
+    .position-sec {
+        display: block;
+    }
+
+    .position-img>img {
+        width: 100%;
+    }
+
+    .relative-image {
+        bottom: -51px;
+        left: -33px;
+    }
+
+    .relative-image>img {
+        width: 160px;
+    }
+
+    .position-text {
+        width: 100%;
+    }
+
+
+    .games-img {
+    
+        flex-direction: column;
+        padding: 10px;
+       
+    }
+
+
+
+    .footer-section {
+        width: 100%;
+        padding: 10px;
+    }
+
 
 
 
